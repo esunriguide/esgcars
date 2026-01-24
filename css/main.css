@@ -1,0 +1,5 @@
+
+body { margin:0; font-family: Arial, sans-serif; }
+.site-header, .site-footer { background:#9370DB; color:#fff; padding:1rem; }
+.site-header a { color:#fff; margin-right:1rem; text-decoration:none; }
+.hero { padding:2rem; text-align:center; }
