@@ -7,11 +7,11 @@ const Hero: React.FC = () => {
     <section className="bg-indigo-400 py-12 px-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-8">
         <div className="hidden lg:block w-1/4">
-          <img 
-            src="https://picsum.photos/seed/happy/400/300" 
-            alt="Happy Buyers" 
-            className="rounded-lg shadow-xl"
-          />
+         <img
+          src="/images/ui/ESGCARS_ladies.png"
+          alt="ESGCARS Happy Buyers"
+          className="rounded-lg shadow-xl"
+        />
         </div>
 
         <div className="flex-1 text-center text-white">
@@ -31,9 +31,9 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="hidden lg:block w-1/4">
-          <img 
-            src="https://picsum.photos/seed/ribbon/400/300" 
-            alt="New Car" 
+          <img
+            src="/images/ui/ESGCARS_Ribbon.png"
+            alt="ESGCARS Deals"
             className="rounded-lg shadow-xl"
           />
         </div>
