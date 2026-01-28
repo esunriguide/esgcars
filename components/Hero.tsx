@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-8">
         <div className="hidden lg:block w-1/4">
          <img
-            src="/images/brand/Ladies.jpg"
+            src="/images/brand/Ladies.webp"
             alt="ESGCARS Happy Buyers"
             loading="lazy"
             decoding="async"
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
 
         <div className="hidden lg:block w-1/4">
           <img
-            src="/images/brand/Ribbon.jpg"
+            src="/images/brand/Ribbon.webp"
             alt="ESGCARS Deals"
             loading="lazy"
             decoding="async"
