@@ -1,6 +1,7 @@
-
+import { Helmet } from 'react-helmet-async';
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -21,6 +22,10 @@ const ApplicationLayout: React.FC<{ children: React.ReactNode }> = ({ children }
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Helmet>
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://esgcars.com.ng" />
+</Helmet>
       {!isProtectedArea && <Header />}
       <main className="flex-grow">
         {children}
@@ -34,6 +39,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <ApplicationLayout>
+        <ScrollToTop />
         <Routes>
           {/* Public Pages */}
           <Route path="/" element={<Home />} />
