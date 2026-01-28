@@ -14,9 +14,14 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img
-            src="/images/brand/ESGCARS.png"
-            alt="ESGCARS"
-            className="h-8 w-auto"
+              src="/images/brand/ESGCARS.webp"
+              alt="ESGCARS"
+              className="
+                h-7 sm:h-8 md:h-10
+                w-auto
+                transition-transform
+                hover:scale-105
+              "
           />
         </Link>
 
