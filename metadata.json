@@ -1,0 +1,9 @@
+{
+  "name": "ESGCARS - Nigeria's Leading Car Marketplace",
+  "description": "A professional, scalable car marketplace platform for buying and selling new, foreign-used, and local-used cars in Nigeria with integrated insurance and safety features.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
