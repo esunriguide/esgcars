@@ -40,8 +40,13 @@ const AppHeader: React.FC = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-[#800080] text-white shadow-md h-16">
       <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between relative">
         <Link to="/dashboard" className="flex items-center shrink-0">
-          <span className="text-2xl font-black tracking-tighter text-white">ESGCARS</span>
-        </Link>
+            <img
+              src="/images/brand/ESGCARS.png"
+              alt="ESGCARS"
+              className="h-8 w-auto"
+            />
+          </Link>
+
 
         <div className="hidden lg:block absolute left-1/2 -translate-x-1/2">
           <span className="text-[11px] font-bold uppercase tracking-[0.25em] text-white/90">

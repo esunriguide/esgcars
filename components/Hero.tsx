@@ -8,10 +8,11 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-8">
         <div className="hidden lg:block w-1/4">
          <img
-          src="/images/ui/ESGCARS_ladies.png"
-          alt="ESGCARS Happy Buyers"
-          className="rounded-lg shadow-xl"
-        />
+            src="/images/brand/Ladies.png"
+            alt="ESGCARS Happy Buyers"
+            className="rounded-lg shadow-xl"
+          />
+
         </div>
 
         <div className="flex-1 text-center text-white">
@@ -32,10 +33,11 @@ const Hero: React.FC = () => {
 
         <div className="hidden lg:block w-1/4">
           <img
-            src="/images/ui/ESGCARS_Ribbon.png"
+            src="/images/brand/Ribbon.png"
             alt="ESGCARS Deals"
             className="rounded-lg shadow-xl"
           />
+
         </div>
       </div>
     </section>
