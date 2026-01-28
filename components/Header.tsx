@@ -13,7 +13,11 @@ const Header: React.FC = () => {
     <header className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-brand-purple tracking-tighter">ESGCARS</span>
+          <img
+            src="/images/brand/ESGCARS.png"
+            alt="ESGCARS"
+            className="h-8 w-auto"
+          />
         </Link>
 
         <div className="hidden md:block italic text-gray-500 text-sm">
